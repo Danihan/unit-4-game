@@ -1,0 +1,295 @@
+
+Skip survey header
+More JavaScript and jQuery Checkpoint
+Page 1 Questions
+
+Hey Daniel Linehan,
+
+Please take a few minutes to complete this Checkpoint.
+
+ 
+1. jQuery is a cross-platform JavaScript ____ for easier client-side scripting.
+
+    library	
+    table	
+    template	
+    command	
+
+2. A page contains a div with the id "emptyDiv".  jQuery may be used to attach a div named newDiv to it with the following code:
+
+    ("emptyDiv").appendChild(newDiv);	
+    $("#emptyDiv").attach(newDiv);	
+    $(emptyDiv).appendChild(newDiv);	
+    $("#emptyDiv").append(newDiv);	
+
+3.  The ____ jQuery method can be used to give elements on or more data attributes
+
+    .data	
+    .attr	
+    .info	
+    .attribute	
+
+4.  jQuery can be useful for tasks such as:
+
+    Dynamically inserting, updating, or removing HTML	
+    Registering click or other change events	
+    Downloading data from databases	
+    All of the above	
+
+5.  In terms of objects, how would one use bracket notation to refer to a value that is not a variable?
+
+    object("property")	
+    object-property	
+    object["property"]	
+    object(property)	
+
+6.  What will be logged to the console with the following code?
+
+
+var myObject = {
+  myNumber: 30,
+  myFunction: function() {
+    this.myNumber += 30;
+    console.log(myObject.myNumber);
+  }
+}
+
+ myObject.myFunction();
+
+ 
+
+    60	
+    3030	
+    undefined	
+    30	
+
+7. Once a new div has been coded, it can be attached to an element on the page with the ____ JavaScript method.
+
+    setElement	
+    createPosition	
+    placeDiv	
+    appendChild	
+
+8.  In JavaScript, ____ functions can access ____ variables, but not vice versa.
+
+    parent, child	
+    child, parent	
+    all, child	
+    parent, all	
+
+9. Without using jQuery, elements on a page can be populated using the ____ property.
+
+    .text()	
+    script	
+    div	
+    innerHTML	
+
+10. What is another JavaScript method that is used to loop over arrays or Objects?
+
+    $.each	
+    forEach	
+    readAll	
+    loopOver	
+
+11. In terms of objects, how would one use dot notation to refer to a value?
+
+    property.[object]	
+    property.object	
+    object.[property]	
+    object.property	
+
+12. What will be logged to the console with the following code?
+
+
+var myFunction = function(someCar) {
+  var myCar = someCar;
+}
+
+myFunction("Honda");
+
+console.log(myCar);
+
+    myFunction	
+    someCar	
+    ReferenceError: myCar is not defined	
+    Honda	
+
+13. What will the code below log to the console when run in a browser?
+
+
+function myFunction() {
+  console.log(this);
+}
+
+myFunction();
+
+    myFunction	
+    Window	
+    null	
+    this	
+
+14.  We can use jQuery to create a listener that listens for a click on all elements with the class myClass using:
+
+    $(".myClass").on(clickMe!, function() { ... });	
+    $(".myClass").on("press", function() { ... });	
+    $(".myClass").on(function() { ... });	
+    $(".myClass").on("click", function() { ... })	
+
+15. Writing ____ is equivalent to writing $() when using the jQuery library.
+
+    library()	
+    select()	
+    jQuery()	
+    click()	
+
+16. Without using jQuery, we can code a new div with the following:
+
+    createNew("div")	
+    createElement("div")	
+    $("<div>")	
+    makeDivElement()	
+
+17. A div with the id of myDiv can be targeted using jQuery by typing:
+
+    $("#myDiv")	
+    $("myDiv")	
+    $div	
+    $(.myDiv)	
+
+18. Without using jQuery, a CSS style of an element can be manipulated using the ____ method.
+
+    setAttribute	
+    .css()	
+    setStyle	
+    adjustCSS	
+
+19. A new button can be created using jQuery and assigned to a variable using with the following code:
+
+    var newButton = $newButton;	
+    var newButton = $("<button>");	
+    var newButton = create.button;	
+    var newButton = button("new");	
+
+20. The ____ keyword is simply a way to reference the object itself.
+
+    object	
+    item	
+    this	
+    it	
+
+21. We can give classes to elements using the ____ jQuery method.
+
+    .setClass	
+    .giveClass	
+    .attrClass	
+    .addClass	
+
+22. With the code below, how would you log  "lizard" to the console?
+
+
+var group = {
+  large: {
+      creatures: "blue whale",
+      medium: {
+          creatures: ["zebra", "rhino", "hippo"],
+          small: {
+              creatures: "cat",
+              tiny: {
+                  creatures: ["snail", "hamster", "lizard", "spider"]
+              }
+          }
+      },
+      other: {
+          creatures: "human"
+      }
+  }
+};
+
+    console.log(group.tiny.creatures.lizard);	
+    console.log(group.tiny.creatures[2]);	
+    console.log(group.large.medium.small.tiny.creatures[2]);	
+    console.log(group.large.medium.small.tiny.creatures[lizard]);	
+
+23. Functions that are properties of objects are also known as ____.
+
+    tasks	
+    methods	
+    functions	
+    steps	
+
+24. When defining an object, its property-value pairs are enclosed within ____.
+ 
+
+    square brackets	
+    curly brackets	
+    colons	
+    parentheses	
+
+25.  Effectively, the ____ is the version of HTML / CSS interpreted by the browser.
+
+    debugger	
+    DOM	
+    console	
+    program	
+
+26. Variables that we can refer to everywhere are known as ____ variables.
+
+    eternal	
+    permanent	
+    primary	
+    global	
+
+27.  ____ makes sure that our JavaScript code doesn't get run until the HTML document is finished loading.
+
+    document.complete	
+    document.ready	
+    process.ended	
+    page.loaded	
+
+28. The ____ jQuery method can be used to iterate over an array without using a for loop.
+
+    .every	
+    .loop	
+    .iterate	
+    .each	
+
+29.  A button with an id of myButton can be set to have its displayed name show as "SuperButton" with the following jQuery code:
+
+    $("#myButton").text("SuperButton");	
+    $#myButton("SuperButton");	
+    $("#myButton").name("SuperButton");	
+    $("#myButton").set("SuperButton");	
+
+30. To attach an element to the beginning of another element, we can use the ____ jQuery method.
+
+    .start	
+    .attach	
+    .append	
+    .prepend	
+
+0%
+
+
+
+
+12. What will be logged to the console with the following code? var myFunction = function(someCar) { var myCar = someCar; } myFunction("Honda"); console.log(myCar);
+Honda
+ReferenceError: myCar is not defined
+18. Without using jQuery, a CSS style of an element can be manipulated using the ____ method.
+setStyle
+setAttribute
+15. Writing ____ is equivalent to writing $() when using the jQuery library.
+select()
+jQuery()
+3.  The ____ jQuery method can be used to give elements on or more data attributes
+.data
+.attr
+21. We can give classes to elements using the ____ jQuery method.
+.setClass
+.addClass
+29.  A button with an id of myButton can be set to have its displayed name show as "SuperButton" with the following jQuery code:
+$("#myButton").name("SuperButton");
+$("#myButton").text("SuperButton");
+13. What will the code below log to the console when run in a browser? function myFunction() { console.log(this); } myFunction();
+myFunction
+Window
